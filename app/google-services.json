@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "773067936302",
+    "firebase_url": "https://deliveritapp-d769a.firebaseio.com",
+    "project_id": "deliveritapp-d769a",
+    "storage_bucket": "deliveritapp-d769a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773067936302:android:efc02c0cc454e4c6",
+        "android_client_info": {
+          "package_name": "com.example.alihamza.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773067936302-3611up9ognbbitcbjemukin2f5r3h10j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alihamza.myapplication",
+            "certificate_hash": "04fd3dbdd1bb0076a622f8c88489e12b48a6686c"
+          }
+        },
+        {
+          "client_id": "773067936302-t4t46gdle505s3o6n32omto3jj05s24n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGDArCQp6NLHI8dRMreRonpTf9RHkKqtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773067936302-t4t46gdle505s3o6n32omto3jj05s24n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
