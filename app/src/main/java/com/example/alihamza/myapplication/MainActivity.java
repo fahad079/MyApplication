@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         mDriver=(Button) findViewById(R.id.driver);
         mCustomer=(Button) findViewById(R.id.customer);
+        //ali
 
     }
 }
