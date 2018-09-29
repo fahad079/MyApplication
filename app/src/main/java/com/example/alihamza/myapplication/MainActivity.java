@@ -1,5 +1,6 @@
 package com.example.alihamza.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -14,7 +15,14 @@ public class MainActivity extends AppCompatActivity {
 
         mDriver=(Button) findViewById(R.id.driver);
         mCustomer=(Button) findViewById(R.id.customer);
-        //ali
-
+        mDriver.setOnClickListener(new view.onClickListener() {
+            @override
+            public void onClick(view v) {
+                Intent intent = new Intent(MainActivity.this, DriverLoginActivity.class);
+                startActivity(intent);
+                finish();
+                return;
+            }
+        } );
     }
 }
