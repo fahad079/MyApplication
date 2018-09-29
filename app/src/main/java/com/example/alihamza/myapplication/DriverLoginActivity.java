@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class DriverLoginActivity extends AppCompatActivity {
     private EditText mEmail,mPassword;
     private Button mLogin,mRegistration;
@@ -15,10 +17,10 @@ public class DriverLoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_login);
 
-        mEmail=(EditText) findViewById(R.id.email);
-        mPassword=(EditText) findViewById(R.id.password);
+        mEmail= findViewById(R.id.email);
+        mPassword= findViewById(R.id.password);
 
-        mLogin=(Button) findViewById(R.id.login);
-        mRegistration=(Button) findViewById(R.id.reg);
+        mLogin= findViewById(R.id.login);
+        mRegistration= findViewById(R.id.reg);
     }
 }
