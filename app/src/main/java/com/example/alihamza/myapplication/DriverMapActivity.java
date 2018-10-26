@@ -128,7 +128,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
     }
     @Override
     protected void onStop() {
-
+//111
         super.onStop();
         String userId= FirebaseAuth.getInstance().getCurrentUser().getUid();
         DatabaseReference ref=FirebaseDatabase.getInstance().getReference("DriverAvailable");
