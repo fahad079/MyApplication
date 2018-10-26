@@ -85,7 +85,7 @@ public class CustomerLoginActivity extends AppCompatActivity {
 
                         if (!task.isSuccessful()) {
 
-                            Toast.makeText(CustomerLoginActivity.this, "Sign Up Error", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(CustomerLoginActivity.this, "Login Error", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

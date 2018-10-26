@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "773067936302",
-    "firebase_url": "https://deliveritapp-d769a.firebaseio.com",
-    "project_id": "deliveritapp-d769a",
-    "storage_bucket": "deliveritapp-d769a.appspot.com"
+    "project_number": "935253996433",
+    "firebase_url": "https://deliverit-bec06.firebaseio.com",
+    "project_id": "deliverit-bec06",
+    "storage_bucket": "deliverit-bec06.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:773067936302:android:efc02c0cc454e4c6",
+        "mobilesdk_app_id": "1:935253996433:android:efc02c0cc454e4c6",
         "android_client_info": {
           "package_name": "com.example.alihamza.myapplication"
         }
       },
       "oauth_client": [
         {
-          "client_id": "773067936302-3611up9ognbbitcbjemukin2f5r3h10j.apps.googleusercontent.com",
+          "client_id": "935253996433-0dt4j8euvvtigjb36a91jqbuto23cjmo.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.alihamza.myapplication",
-            "certificate_hash": "04fd3dbdd1bb0076a622f8c88489e12b48a6686c"
+            "certificate_hash": "3f294436a615f85d10a7bb2adc0473ee8d933985"
           }
         },
         {
-          "client_id": "773067936302-t4t46gdle505s3o6n32omto3jj05s24n.apps.googleusercontent.com",
+          "client_id": "935253996433-dae9424viakqtt5t6qq8r900fg26mned.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAGDArCQp6NLHI8dRMreRonpTf9RHkKqtA"
+          "current_key": "AIzaSyDnklH4SUx2k8AMurnkVLT1GyRaQhoTsYk"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "773067936302-t4t46gdle505s3o6n32omto3jj05s24n.apps.googleusercontent.com",
+              "client_id": "935253996433-dae9424viakqtt5t6qq8r900fg26mned.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

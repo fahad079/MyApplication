@@ -35,7 +35,7 @@ public class DriverLoginActivity extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if (user != null) {
-                    Intent intent = new Intent(DriverLoginActivity.this, MapActivity.class);
+                    Intent intent = new Intent(DriverLoginActivity.this, DriverMapActivity.class);
                     startActivity(intent);
                     finish();
                     return;
@@ -85,7 +85,7 @@ public class DriverLoginActivity extends AppCompatActivity {
 
                         if (!task.isSuccessful()) {
 
-                            Toast.makeText(DriverLoginActivity.this, "Sign Up Error", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(DriverLoginActivity.this, "Login Error", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
