@@ -2,4 +2,6 @@
     <string name="app_name">My Application</string>
     <string name="title_activity_driver_map">Map</string>
     <string name="title_activity_maps">Map</string>
+    <string name="logout">logout</string>
+
 </resources>
